@@ -7,13 +7,40 @@
 
 import UIKit
 
+struct Response: Decodable {
+    let listings: [MyListings]
+}
+
+struct MyListings: Decodable {
+    let year: Int
+    let make: String
+    let trim: String
+    let model: String
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let jsonString = "https://carfax-for-consumers.firebaseio.com/assignment.json"
+        guard let url = URL(string: jsonString) else { return }
+        
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            guard let data = data else { return }
+            
+            do {
+                let result = try JSONDecoder().decode(Response.self, from: data)
+                print(result)
+            }
+            catch {
+                print("Couldn't fetch data")
+            }
+        }.resume()
+        
     }
 
 
 }
+
 
