@@ -1,0 +1,6 @@
+framework module Pods_Carfax_CarfaxUITests {
+  umbrella header "Pods-Carfax-CarfaxUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

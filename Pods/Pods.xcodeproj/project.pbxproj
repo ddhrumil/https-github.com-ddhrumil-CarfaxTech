@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E2059875793DDA00B0C784114A4057 /* Pods-Carfax-CarfaxUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF9A4D5555D2C4DF1C623172326BEB /* Pods-Carfax-CarfaxUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16656D64CD08099DDC5A5865AFF531FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C63296E69024FACF8295D1241109AAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		730459634A298C22D8E687B2D4E37844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B3D4D92CD9C22AE2ACDAEC56C10F1DBF /* Pods-Carfax-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE4C08E214B6737D3763161ED5B6C0 /* Pods-Carfax-dummy.m */; };
+		BB71AF2F53AF71C03594A25434514BA2 /* Pods-CarfaxTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0882374595A7D98BAD29C6418C31280 /* Pods-CarfaxTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC7FCDA33A9704FF3860699D45007F69 /* Pods-Carfax-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC86B9DFE5CBDA1913B0E48DCBD18238 /* Pods-Carfax-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D09D6831CF0CAF2F30C4B0A9DC1FF8 /* Pods-CarfaxTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D17D3D554B4A79D40BA38C54B7AFFD /* Pods-CarfaxTests-dummy.m */; };
+		FBA275070639DDDC24FC3897252DD603 /* Pods-Carfax-CarfaxUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB22F916343267B6ECEDB71EA2848F /* Pods-Carfax-CarfaxUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		348FD7A22BB7D821370D73DB2CBAA929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395D9EBDB0C744230356B531DFE7B0E8;
+			remoteInfo = "Pods-Carfax";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E64A7326C88C61C7456C5588C8CCA1 /* Pods-Carfax-CarfaxUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carfax-CarfaxUITests-Info.plist"; sourceTree = "<group>"; };
+		088FD364586D40FDD8BB8D3C6A9059E0 /* Pods-CarfaxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarfaxTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CFE4C08E214B6737D3763161ED5B6C0 /* Pods-Carfax-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Carfax-dummy.m"; sourceTree = "<group>"; };
+		1FC1E89F15E6EE91837C75C68693E0CB /* Pods-CarfaxTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarfaxTests"; path = Pods_CarfaxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		212C6A668696883EB46D8DF57F245211 /* Pods-Carfax-CarfaxUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Carfax-CarfaxUITests.modulemap"; sourceTree = "<group>"; };
+		2A82CF07D946B18170D68FDD98B74F15 /* Pods-Carfax-CarfaxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carfax-CarfaxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30D17D3D554B4A79D40BA38C54B7AFFD /* Pods-CarfaxTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarfaxTests-dummy.m"; sourceTree = "<group>"; };
+		513C0880917D51781C981B6387A0772D /* Pods-Carfax-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carfax-Info.plist"; sourceTree = "<group>"; };
+		5D0245ED9D4F29101D9E08991BF8F612 /* Pods-Carfax-CarfaxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carfax-CarfaxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63687E114690A0FBB840843934F1F092 /* Pods-Carfax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carfax.debug.xcconfig"; sourceTree = "<group>"; };
+		67409E27C42BB12911C086A53F3C09B1 /* Pods-Carfax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carfax.release.xcconfig"; sourceTree = "<group>"; };
+		69CD08473345FFBD7310E77BF78EDFF4 /* Pods-Carfax-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carfax-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D19824170F73D970C133AE0D0C4C787 /* Pods-CarfaxTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarfaxTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		816C6AF42AE32B6FBED1A375ED4EA86D /* Pods-Carfax */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Carfax"; path = Pods_Carfax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD83F0CE63C5343046FBE48866A1B25 /* Pods-Carfax.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Carfax.modulemap"; sourceTree = "<group>"; };
+		9318349480F3AFA5FCE5CBDDA0C2D618 /* Pods-CarfaxTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarfaxTests-Info.plist"; sourceTree = "<group>"; };
+		97BB22F916343267B6ECEDB71EA2848F /* Pods-Carfax-CarfaxUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Carfax-CarfaxUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05D94E475D7A7384B8AF9A5F9454A27 /* Pods-Carfax-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Carfax-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2BD6C08814D97D54CDE3FAEA32ED7CC /* Pods-Carfax-CarfaxUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Carfax-CarfaxUITests"; path = Pods_Carfax_CarfaxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5BF22BB0303A61E59813A926753905 /* Pods-CarfaxTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarfaxTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB5A54DE94035201A4D75B1A89F76E48 /* Pods-CarfaxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarfaxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB9913F53E61A2B17AFB7417861BAA2 /* Pods-Carfax-CarfaxUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carfax-CarfaxUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0882374595A7D98BAD29C6418C31280 /* Pods-CarfaxTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarfaxTests-umbrella.h"; sourceTree = "<group>"; };
+		D4DF9A4D5555D2C4DF1C623172326BEB /* Pods-Carfax-CarfaxUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Carfax-CarfaxUITests-umbrella.h"; sourceTree = "<group>"; };
+		FA8C3DA9C7BB1A48968B30F60DFDA71B /* Pods-Carfax-CarfaxUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Carfax-CarfaxUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC5343C2150A4445CA47F0260063C929 /* Pods-CarfaxTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarfaxTests.modulemap"; sourceTree = "<group>"; };
+		FC86B9DFE5CBDA1913B0E48DCBD18238 /* Pods-Carfax-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Carfax-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080D5EC3B28835D7E1EAAB9C9191E987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16656D64CD08099DDC5A5865AFF531FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1542113D12305F9B31B416212AC011CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730459634A298C22D8E687B2D4E37844 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A37B7979DE07B8055FE05325893F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C63296E69024FACF8295D1241109AAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF09B6D9EBDB6E72D4F7CFF2743C152 /* Pods-CarfaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5343C2150A4445CA47F0260063C929 /* Pods-CarfaxTests.modulemap */,
+				BE5BF22BB0303A61E59813A926753905 /* Pods-CarfaxTests-acknowledgements.markdown */,
+				6D19824170F73D970C133AE0D0C4C787 /* Pods-CarfaxTests-acknowledgements.plist */,
+				30D17D3D554B4A79D40BA38C54B7AFFD /* Pods-CarfaxTests-dummy.m */,
+				9318349480F3AFA5FCE5CBDDA0C2D618 /* Pods-CarfaxTests-Info.plist */,
+				D0882374595A7D98BAD29C6418C31280 /* Pods-CarfaxTests-umbrella.h */,
+				CB5A54DE94035201A4D75B1A89F76E48 /* Pods-CarfaxTests.debug.xcconfig */,
+				088FD364586D40FDD8BB8D3C6A9059E0 /* Pods-CarfaxTests.release.xcconfig */,
+			);
+			name = "Pods-CarfaxTests";
+			path = "Target Support Files/Pods-CarfaxTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8065AD26B1401DA29FD4956D3339E68A /* Pods-Carfax */ = {
+			isa = PBXGroup;
+			children = (
+				8AD83F0CE63C5343046FBE48866A1B25 /* Pods-Carfax.modulemap */,
+				A05D94E475D7A7384B8AF9A5F9454A27 /* Pods-Carfax-acknowledgements.markdown */,
+				69CD08473345FFBD7310E77BF78EDFF4 /* Pods-Carfax-acknowledgements.plist */,
+				1CFE4C08E214B6737D3763161ED5B6C0 /* Pods-Carfax-dummy.m */,
+				513C0880917D51781C981B6387A0772D /* Pods-Carfax-Info.plist */,
+				FC86B9DFE5CBDA1913B0E48DCBD18238 /* Pods-Carfax-umbrella.h */,
+				63687E114690A0FBB840843934F1F092 /* Pods-Carfax.debug.xcconfig */,
+				67409E27C42BB12911C086A53F3C09B1 /* Pods-Carfax.release.xcconfig */,
+			);
+			name = "Pods-Carfax";
+			path = "Target Support Files/Pods-Carfax";
+			sourceTree = "<group>";
+		};
+		A525EB21C31581BE62AA65B2C92DAF5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816C6AF42AE32B6FBED1A375ED4EA86D /* Pods-Carfax */,
+				B2BD6C08814D97D54CDE3FAEA32ED7CC /* Pods-Carfax-CarfaxUITests */,
+				1FC1E89F15E6EE91837C75C68693E0CB /* Pods-CarfaxTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B880B22968F152092B4E9414BA7CD932 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8065AD26B1401DA29FD4956D3339E68A /* Pods-Carfax */,
+				D44C274EC1A4060C3462DF225C448251 /* Pods-Carfax-CarfaxUITests */,
+				3DF09B6D9EBDB6E72D4F7CFF2743C152 /* Pods-CarfaxTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A525EB21C31581BE62AA65B2C92DAF5C /* Products */,
+				B880B22968F152092B4E9414BA7CD932 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D44C274EC1A4060C3462DF225C448251 /* Pods-Carfax-CarfaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				212C6A668696883EB46D8DF57F245211 /* Pods-Carfax-CarfaxUITests.modulemap */,
+				FA8C3DA9C7BB1A48968B30F60DFDA71B /* Pods-Carfax-CarfaxUITests-acknowledgements.markdown */,
+				CBB9913F53E61A2B17AFB7417861BAA2 /* Pods-Carfax-CarfaxUITests-acknowledgements.plist */,
+				97BB22F916343267B6ECEDB71EA2848F /* Pods-Carfax-CarfaxUITests-dummy.m */,
+				00E64A7326C88C61C7456C5588C8CCA1 /* Pods-Carfax-CarfaxUITests-Info.plist */,
+				D4DF9A4D5555D2C4DF1C623172326BEB /* Pods-Carfax-CarfaxUITests-umbrella.h */,
+				5D0245ED9D4F29101D9E08991BF8F612 /* Pods-Carfax-CarfaxUITests.debug.xcconfig */,
+				2A82CF07D946B18170D68FDD98B74F15 /* Pods-Carfax-CarfaxUITests.release.xcconfig */,
+			);
+			name = "Pods-Carfax-CarfaxUITests";
+			path = "Target Support Files/Pods-Carfax-CarfaxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7AED89DB54A46F5AAA0933B12A9950A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7FCDA33A9704FF3860699D45007F69 /* Pods-Carfax-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F883FAEB6267767E9B93C8565F33503 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E2059875793DDA00B0C784114A4057 /* Pods-Carfax-CarfaxUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECB7E8EC86C799F9F45D2CC920D9B3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB71AF2F53AF71C03594A25434514BA2 /* Pods-CarfaxTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2803EA3B52028BCFE6F219DEB75024D1 /* Pods-CarfaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F124CF5EB4F523F1C17E7FD494470A2 /* Build configuration list for PBXNativeTarget "Pods-CarfaxTests" */;
+			buildPhases = (
+				FECB7E8EC86C799F9F45D2CC920D9B3D /* Headers */,
+				9A2CE626935E1E2555B44E64DD8FF8B9 /* Sources */,
+				080D5EC3B28835D7E1EAAB9C9191E987 /* Frameworks */,
+				F483B81A83C43054CF7B417FDF293906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A5DAEE4DE66CCABCA7D2AD3EA966AC /* PBXTargetDependency */,
+			);
+			name = "Pods-CarfaxTests";
+			productName = Pods_CarfaxTests;
+			productReference = 1FC1E89F15E6EE91837C75C68693E0CB /* Pods-CarfaxTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		395D9EBDB0C744230356B531DFE7B0E8 /* Pods-Carfax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A8CA37590A8025E2C27B9CD97D0EF8 /* Build configuration list for PBXNativeTarget "Pods-Carfax" */;
+			buildPhases = (
+				7AED89DB54A46F5AAA0933B12A9950A1 /* Headers */,
+				F3490C8911B6C28E817B17CE89B51D78 /* Sources */,
+				1542113D12305F9B31B416212AC011CE /* Frameworks */,
+				6645ACA358D165AAF4936FAFC39283A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Carfax";
+			productName = Pods_Carfax;
+			productReference = 816C6AF42AE32B6FBED1A375ED4EA86D /* Pods-Carfax */;
+			productType = "com.apple.product-type.framework";
+		};
+		56D999154E2386D31FC2FA4A0468A532 /* Pods-Carfax-CarfaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227816C04D8EE7563A7394F381EE7E88 /* Build configuration list for PBXNativeTarget "Pods-Carfax-CarfaxUITests" */;
+			buildPhases = (
+				7F883FAEB6267767E9B93C8565F33503 /* Headers */,
+				4B1C423C946F7C5AE0860058C9DDDD2A /* Sources */,
+				21A37B7979DE07B8055FE05325893F22 /* Frameworks */,
+				C2EC55972698F8FC23A85C6A8E1E8D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Carfax-CarfaxUITests";
+			productName = Pods_Carfax_CarfaxUITests;
+			productReference = B2BD6C08814D97D54CDE3FAEA32ED7CC /* Pods-Carfax-CarfaxUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A525EB21C31581BE62AA65B2C92DAF5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				395D9EBDB0C744230356B531DFE7B0E8 /* Pods-Carfax */,
+				56D999154E2386D31FC2FA4A0468A532 /* Pods-Carfax-CarfaxUITests */,
+				2803EA3B52028BCFE6F219DEB75024D1 /* Pods-CarfaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6645ACA358D165AAF4936FAFC39283A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EC55972698F8FC23A85C6A8E1E8D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F483B81A83C43054CF7B417FDF293906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B1C423C946F7C5AE0860058C9DDDD2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA275070639DDDC24FC3897252DD603 /* Pods-Carfax-CarfaxUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2CE626935E1E2555B44E64DD8FF8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D09D6831CF0CAF2F30C4B0A9DC1FF8 /* Pods-CarfaxTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3490C8911B6C28E817B17CE89B51D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D4D92CD9C22AE2ACDAEC56C10F1DBF /* Pods-Carfax-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22A5DAEE4DE66CCABCA7D2AD3EA966AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Carfax";
+			target = 395D9EBDB0C744230356B531DFE7B0E8 /* Pods-Carfax */;
+			targetProxy = 348FD7A22BB7D821370D73DB2CBAA929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163CFFAF753B2D24479DECCCE29D2CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088FD364586D40FDD8BB8D3C6A9059E0 /* Pods-CarfaxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarfaxTests/Pods-CarfaxTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarfaxTests/Pods-CarfaxTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		227FC59D08501BA2AB73FF42DF2258DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5A54DE94035201A4D75B1A89F76E48 /* Pods-CarfaxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarfaxTests/Pods-CarfaxTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarfaxTests/Pods-CarfaxTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421302F18282BC41E9F2F59664152A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0245ED9D4F29101D9E08991BF8F612 /* Pods-Carfax-CarfaxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Carfax-CarfaxUITests/Pods-Carfax-CarfaxUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Carfax-CarfaxUITests/Pods-Carfax-CarfaxUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B73804532C00859DE4E3B2E65DBE147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63687E114690A0FBB840843934F1F092 /* Pods-Carfax.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Carfax/Pods-Carfax-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Carfax/Pods-Carfax.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83FDEEB13D6B956EE7D93C4F812B2F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67409E27C42BB12911C086A53F3C09B1 /* Pods-Carfax.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Carfax/Pods-Carfax-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Carfax/Pods-Carfax.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D510069B6AAFDC00663D7A759E09E0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A82CF07D946B18170D68FDD98B74F15 /* Pods-Carfax-CarfaxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Carfax-CarfaxUITests/Pods-Carfax-CarfaxUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Carfax-CarfaxUITests/Pods-Carfax-CarfaxUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F124CF5EB4F523F1C17E7FD494470A2 /* Build configuration list for PBXNativeTarget "Pods-CarfaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227FC59D08501BA2AB73FF42DF2258DD /* Debug */,
+				163CFFAF753B2D24479DECCCE29D2CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227816C04D8EE7563A7394F381EE7E88 /* Build configuration list for PBXNativeTarget "Pods-Carfax-CarfaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421302F18282BC41E9F2F59664152A4C /* Debug */,
+				D510069B6AAFDC00663D7A759E09E0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A8CA37590A8025E2C27B9CD97D0EF8 /* Build configuration list for PBXNativeTarget "Pods-Carfax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B73804532C00859DE4E3B2E65DBE147 /* Debug */,
+				83FDEEB13D6B956EE7D93C4F812B2F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
